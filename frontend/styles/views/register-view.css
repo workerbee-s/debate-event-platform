@@ -1,0 +1,115 @@
+body {
+    background-color: #F5F5F5; /* set a background color */
+}
+h1 {
+    color: hsl(214, 35%, 15%);
+    font-size: 1.2rem;
+}
+
+h2 {
+    color: hsl(214, 35%, 15%);
+    font-size: 1.495rem;
+}
+
+h5 {
+    color: hsla(214, 45%, 20%, 0.5);
+    font-size: 1.0rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px; /* Set the desired height of the logo */
+    margin-right: 10px;
+}
+
+/* Styling for "Sign up with Google" button */
+.google-button {
+    margin-top: 30px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    background-color: #4285F4;
+    color: #F5F5F5;
+    border: black;
+    padding: 20px 20px 20px 55px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    background-image: url('img/google-btn.png');
+    background-repeat: no-repeat;
+    background-position: 1px ;
+}
+
+.google-button:hover {
+    #background-color: hsl(214, 90%, 52%);
+    background-color: #402755DC;
+    color: #F5F5F5;
+}
+
+/* Styling for "Sign up with GitHub" button */
+.github-button {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #161b1f;
+    #background-color: #4285F4;
+    color: #F5F5F5;
+    border: black;
+    padding: 20px 20px 20px 55px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    background-image: url('img/git.png');
+    background-repeat: no-repeat;
+    background-position: 1px ;
+
+}
+
+.github-button:hover {
+    background-color: #402755DC;
+    color: #F5F5F5;
+}
+
+/* Primary color for form labels */
+.form-label {
+    color: #007bff;
+}
+
+/* Primary color for form inputs */
+.form-control {
+    border-color: #007bff;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+.form-control-sign-btn {
+    margin-top: 15px;
+}
+
+/* Primary color for form input focus state */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Primary color for form button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Primary color for form button hover state */
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Primary color for form button focus state */
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}

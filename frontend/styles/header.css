@@ -1,0 +1,48 @@
+.full-width-header {
+    width: 100%;
+}
+
+.header {
+    background-color: #5A456C;
+    padding: 10px;
+}
+
+.header-menu-logo {
+    width: 100px;
+    top: 10px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.user-layout {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.logout-button {
+    border: none;
+    background-color: #402755;
+    color: #D19967;
+    margin-left: -8px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 30px;
+}
+
+.menu-icon {
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+.header-user-info-text {
+    margin-left: -12px;
+    margin-bottom: 8px;
+}
+.user-info-txt{
+    margin-left: -12px;
+    margin-bottom: 8px;
+}

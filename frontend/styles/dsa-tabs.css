@@ -1,0 +1,17 @@
+/* Style for tabs */
+:host(.my-tabs) [part="tab"] {
+    background-color: #5a456c;
+    color: white;
+}
+
+/* Style for selected tab */
+:host(.my-tabs) [part="tab"][selected] {
+    background-color: #5a456c;
+}
+
+/* Style for hover and active state */
+:host(.my-tabs) [part="tab"]:hover,
+:host(.my-tabs) [part="tab"][active] {
+    background-color: #5a456c;
+    opacity: 0.8;
+}

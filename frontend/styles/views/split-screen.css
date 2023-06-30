@@ -1,0 +1,9 @@
+.icon-button {
+    padding: 0;
+    font-size: 0;
+}
+
+.icon-button .v-button-wrap::before {
+    font-size: inherit;
+    line-height: inherit;
+}

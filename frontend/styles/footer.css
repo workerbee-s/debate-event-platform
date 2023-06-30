@@ -1,0 +1,11 @@
+.full-width-footer {
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #233449;
+    color: #f2f2f2 ;
+    height: 50px;
+}
