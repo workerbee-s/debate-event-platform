@@ -11,15 +11,11 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
-import jakarta.annotation.security.PermitAll;
-import jakarta.annotation.security.RolesAllowed;
 import me.shreyeschekuru.dsa.data.entity.User;
 import me.shreyeschekuru.dsa.notification.NotificationUtil;
 import me.shreyeschekuru.dsa.views.layouts.BaseLayout;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 
 
 @PageTitle("Thank you for registering with us")

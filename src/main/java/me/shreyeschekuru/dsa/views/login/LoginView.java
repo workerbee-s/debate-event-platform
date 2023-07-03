@@ -15,14 +15,12 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
 import com.vaadin.flow.server.VaadinSession;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
-import me.shreyeschekuru.dsa.data.entity.User;
 import me.shreyeschekuru.dsa.data.service.UserService;
 import me.shreyeschekuru.dsa.notification.NotificationUtil;
 import me.shreyeschekuru.dsa.views.DefaultDashboardView;
 import me.shreyeschekuru.dsa.views.register.GitHubAuthService;
 import me.shreyeschekuru.dsa.views.register.GoogleAuthService;
 import me.shreyeschekuru.dsa.views.register.RegisterView;
-import me.shreyeschekuru.dsa.views.register.UserTypeSelectionView;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @AnonymousAllowed

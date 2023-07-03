@@ -1,6 +1,5 @@
 package me.shreyeschekuru.dsa.data.service;
 
-import me.shreyeschekuru.dsa.data.entity.Role;
 import me.shreyeschekuru.dsa.data.entity.User;
 import me.shreyeschekuru.dsa.data.repository.UserRepository;
 import me.shreyeschekuru.dsa.utilities.UIUtility;

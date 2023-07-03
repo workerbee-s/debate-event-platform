@@ -1,30 +1,21 @@
 package me.shreyeschekuru.dsa.views.register;
 
 import com.vaadin.flow.component.UI;
-import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.*;
-import com.vaadin.flow.server.VaadinSession;
 import com.vaadin.flow.server.auth.AnonymousAllowed;
 import me.shreyeschekuru.dsa.data.entity.Role;
 import me.shreyeschekuru.dsa.data.entity.User;
-import me.shreyeschekuru.dsa.data.entity.UserSession;
 import me.shreyeschekuru.dsa.data.service.EmailService;
 import me.shreyeschekuru.dsa.data.service.UserService;
 import me.shreyeschekuru.dsa.notification.NotificationUtil;
 import me.shreyeschekuru.dsa.views.DefaultDashboardView;
-import me.shreyeschekuru.dsa.views.admin.AdminDashboardView;
-import me.shreyeschekuru.dsa.views.judge.JudgeDashboardView;
-import me.shreyeschekuru.dsa.views.layouts.BaseLayout;
 import me.shreyeschekuru.dsa.views.login.LoginView;
-import me.shreyeschekuru.dsa.views.organizer.OrganizerDashboardView;
-import me.shreyeschekuru.dsa.views.students.StudentDashboardView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.stereotype.Component;
 
 import java.util.Collections;
 

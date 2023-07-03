@@ -14,7 +14,6 @@ import com.vaadin.flow.component.tabs.Tab;
 import com.vaadin.flow.component.tabs.Tabs;
 import com.vaadin.flow.router.RouterLink;
 import me.shreyeschekuru.dsa.data.entity.Role;
-import me.shreyeschekuru.dsa.views.DefaultDashboardView;
 import me.shreyeschekuru.dsa.views.admin.AdminDashboardView;
 import me.shreyeschekuru.dsa.views.judge.JudgeDashboardView;
 import me.shreyeschekuru.dsa.views.organizer.OrganizerDashboardView;
