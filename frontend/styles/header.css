@@ -7,6 +7,24 @@
     padding: 10px;
 }
 
+.header-logo {
+    width: 120px;
+    top: 10px;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.dashboard-logo{
+    width: 100px;
+    height: 40px;
+}
+
+/*.header-content-class{*/
+/*    height: 60px;*/
+/*    background-color: #5A456C;*/
+/*    transform: translateX(-18px) translateY(-8px);*/
+/*}*/
+
 .header-menu-logo {
     width: 100px;
     top: 10px;
@@ -22,15 +40,48 @@
     text-align: right;
     color: #ffffff;
 }
+.set-primary-background{
+    background-color: #5A456C;
+}
+.drawer{
+   /* background-color: #5A456C; */
+}
+
+:host([theme~='spacing']) {
+    gap: var(--lumo-space-m);
+    width: 100%;
+}
+
+vaadin-app-layout .navbar{
+    background-color: #5A456C;
+}
+
+.right-content-header{
+    margin-left: auto;
+    margin-right: 40px;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
 
 .logout-button {
     border: none;
-    background-color: #402755;
-    color: #D19967;
+    background-color: #5A456C;
+    color: #f1f1f1;
     margin-left: -8px;
     margin-bottom: 8px;
-    width: 100px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
+}
+
+.logout-button:hover{
+    border: none;
+    background-color: #352642;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .menu-icon {
@@ -45,4 +96,13 @@
 .user-info-txt{
     margin-left: -12px;
     margin-bottom: 8px;
+}
+
+.toggle-button{
+    background-color: #5a456c;
+    color: #f2f2f2;
+}
+
+:host(.toggle-button) {
+    --vaadin-app-layout-drawer-toggle-icon-size: 132px;
 }

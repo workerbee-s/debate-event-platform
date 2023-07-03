@@ -1,4 +1,4 @@
-package me.shreyeschekuru.dsa.data.service;
+package me.shreyeschekuru.dsa.data.repository;
 
 import me.shreyeschekuru.dsa.data.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

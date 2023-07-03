@@ -5,7 +5,21 @@
 .footer {
     position: fixed;
     bottom: 0;
-    background-color: #233449;
-    color: #f2f2f2 ;
+    background-color: #ffffff;
+    color: #5A456C ;
+    font-size: 12px;
     height: 50px;
+    right: 0;
+    width: 50%;
+}
+
+.footer-full {
+    position: fixed;
+    bottom: 0;
+    background-color: #eaedf0;
+    color: #5A456C ;
+    font-size: 14px;
+    height: 50px;
+    right: 0;
+    width: 100%;
 }

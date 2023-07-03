@@ -1,6 +1,4 @@
-body {
-    background-color: #F5F5F5; /* set a background color */
-}
+
 h1 {
     color: hsl(214, 35%, 15%);
     font-size: 1.2rem;
@@ -13,7 +11,7 @@ h2 {
 
 h5 {
     color: hsla(214, 45%, 20%, 0.5);
-    font-size: 1.0rem;
+    font-size: 0.9rem;
 }
 
 .logo {
@@ -27,6 +25,22 @@ h5 {
     margin-right: 10px;
 }
 
+.splash-screen-left{
+    width: 51%;
+    max-width: 50%;
+    background-color: #5A456C;
+}
+
+.splash-screen-right{
+    width: 50%;
+    max-width: 50%;
+    background-color: #f5f5f5;
+}
+
+.slide-text{
+    margin-top: 5%;
+    color: #F5F5F5;
+}
 /* Styling for "Sign up with Google" button */
 .google-button {
     margin-top: 30px;
@@ -76,6 +90,7 @@ h5 {
 /* Primary color for form labels */
 .form-label {
     color: #007bff;
+    width: 100%;
 }
 
 /* Primary color for form inputs */

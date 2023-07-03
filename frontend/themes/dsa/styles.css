@@ -1,33 +1,27 @@
 /* Import your application global css files here or add the styles directly to this file */
 
 @import url('../../styles/main-layout.css');
+@import url('../../styles/main.css');
 @import url('../../styles/header.css');
 @import url('../../styles/footer.css');
-@import url('../../styles/students-view.css');
+@import url('../../styles/views/register-view.css');
+@import url('../../styles/signup-thank-you.css');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700)');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
-html {
-    --lumo-font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+
+html{
+    --lumo-font-family: "Open Sans", sans-serif;
     --lumo-primary-text-color: rgb(90, 69, 108);
     --lumo-primary-color-50pct: rgba(90, 69, 108, 0.5);
     --lumo-primary-color-10pct: rgba(90, 69, 108, 0.1);
     --lumo-primary-color: #5A456C;
-    --lumo-error-text-color: rgb(255, 68, 68);
-    --lumo-error-color-50pct: rgba(255, 68, 68, 0.5);
-    --lumo-error-color-10pct: rgba(255, 68, 68, 0.1);
-    --lumo-error-color: #FF4444;
-    --lumo-success-text-color: rgb(0, 200, 81);
-    --lumo-success-color-50pct: rgba(0, 200, 81, 0.5);
-    --lumo-success-color-10pct: rgba(0, 200, 81, 0.1);
-    --lumo-success-color: #00C851;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 [theme~="dark"] {
-    --lumo-error-text-color: rgb(255, 68, 68);
-    --lumo-error-color-50pct: rgba(255, 68, 68, 0.5);
-    --lumo-error-color-10pct: rgba(255, 68, 68, 0.1);
-    --lumo-error-color: #FF4444;
-    --lumo-success-text-color: rgb(0, 200, 81);
-    --lumo-success-color-50pct: rgba(0, 200, 81, 0.5);
-    --lumo-success-color-10pct: rgba(0, 200, 81, 0.1);
-    --lumo-success-color: #00C851;
+
 }
